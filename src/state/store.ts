@@ -1,7 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import todoReducer from "./todo/todoSlice";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    todo: todoReducer,
+  },
 });
 
 // Return Type that helps us to get all states and there types.
