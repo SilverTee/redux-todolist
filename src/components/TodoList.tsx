@@ -51,8 +51,6 @@ function TodoList() {
           </>
         ))}
       </ul>
-      <button className="btn">Show Tasks i have done</button>
-      <button className="btn">Show Task i need to do</button>
     </div>
   );
 }
